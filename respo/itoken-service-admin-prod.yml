@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: itoken-service-admin
+  zipkin:
+    base-url: http://47.95.112.208:9411
+  boot:
+    admin:
+      client:
+        url: http://47.95.112.208:8084
+
+server:
+  port: 8501
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://47.95.112.208:8761/eureka,http://47.95.112.208:8861/eureka
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info
