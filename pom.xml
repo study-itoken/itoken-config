@@ -76,8 +76,6 @@
             <id>nexus</id>
             <name>Nexus Repository</name>
             <url>http://106.54.136.182:8081/repository/maven-public/</url>
-            <!-- 依赖下载地址问题，上面是Nexus 3.13版本，下面是Nexus 3.18版本 -->
-<!--            <url>http://106.54.136.182:8081/service/rest/repository/browse/maven-public/</url>-->
             <releases>
                 <enabled>true</enabled>
             </releases>
