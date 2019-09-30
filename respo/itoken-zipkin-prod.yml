@@ -8,10 +8,10 @@ spring:
   zipkin:
     base-url: http;//47.95.112.208:9411
 
-server:
-  port: 9411
+  server:
+    port: 9411
 
-eureka:
+  eureka:
   client:
     service-url:
       defaultZone: http://47.95.112.208:8761/eureka/,http://47.95.112.208:8861/eureka/
