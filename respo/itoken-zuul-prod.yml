@@ -16,6 +16,7 @@ eureka:
     service-url:
       defaultZone: http://47.95.112.208:8761/eureka/
 
+#路由
 zuul:
   routes:
     api-a:
